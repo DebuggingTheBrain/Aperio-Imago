@@ -31,7 +31,7 @@ Run
 Open PowerShell in the script folder and run:
 ```powershell
 Set-ExecutionPolicy -Scope Process Bypass
-& ".\ImageScope_FullBatch_RECURSIVE_ALL_Q99_v4.ps1"
+& ".\ImageScope_FullBatch_ver1.ps1"
 ```
 If the test works, set `$MaxFiles = 0` to process all slides.
 Keep Windows unlocked and do not use the mouse or keyboard while the script is running. Results and errors are saved in `ImageScope_batch_log.csv`. Restarting the script skips completed files.
@@ -59,7 +59,7 @@ Start
 Öffne PowerShell im Skriptordner und führe Folgendes aus:
 ```powershell
 Set-ExecutionPolicy -Scope Process Bypass
-& ".\ImageScope_FullBatch_RECURSIVE_ALL_Q99_v4.ps1"
+& ".\ImageScope_FullBatch_ver1.ps1"
 ```
 Wenn der Test funktioniert, setze `$MaxFiles = 0`, um alle Slides zu verarbeiten.
 Windows muss entsperrt bleiben. Benutze Maus und Tastatur während des Laufs nicht. Ergebnisse und Fehler stehen in `ImageScope_batch_log.csv`. Beim Neustart werden fertige Dateien übersprungen.
