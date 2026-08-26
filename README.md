@@ -8,8 +8,10 @@ Automated batch extraction and conversion of whole-slide images with ImageScope.
 
 ImageScope Batch Export
 Automatically exports complete `.svs` slides from ImageScope as compressed TIFF files (`TIF:LZW`).
-English
-Setup
+
+
+*English Setup*
+
 You need Windows, Aperio ImageScope, and PowerShell.
 Install `winapp` in PowerShell:
 ```powershell
@@ -35,7 +37,8 @@ If the test works, set `$MaxFiles = 0` to process all slides.
 Keep Windows unlocked and do not use the mouse or keyboard while the script is running. Results and errors are saved in `ImageScope_batch_log.csv`. Restarting the script skips completed files.
 
 ---
-Deutsch
+*Deutsch*
+
 Das Skript exportiert vollständige `.svs`-Slides automatisch aus ImageScope als komprimierte TIFF-Dateien (`TIF:LZW`).
 Einrichtung
 Du brauchst Windows, Aperio ImageScope und PowerShell.
