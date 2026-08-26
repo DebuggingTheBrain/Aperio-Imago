@@ -3,7 +3,7 @@
 
 Automated batch extraction and conversion of whole-slide images with ImageScope.
 
-![Aperio Imago](AperioImago.png)
+![Aperio Imago](folder/AperioImago.png)
 
 
 ImageScope Batch Export
