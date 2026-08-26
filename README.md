@@ -21,6 +21,8 @@ For the first test, process only one file:
 ```powershell
 $MaxFiles = 1
 ```
+**dont forget to set this to 0 again after testing!**
+
 Run
 Open PowerShell in the script folder and run:
 ```powershell
@@ -46,6 +48,7 @@ Teste zuerst nur eine Datei:
 ```powershell
 $MaxFiles = 1
 ```
+**nicht vergessen das wieder auf 0 zu setzen vor dem Testen!**
 Start
 Öffne PowerShell im Skriptordner und führe Folgendes aus:
 ```powershell
