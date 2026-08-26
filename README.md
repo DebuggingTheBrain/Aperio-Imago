@@ -28,9 +28,10 @@ Open PowerShell in the script folder and run:
 ```powershell
 Set-ExecutionPolicy -Scope Process Bypass
 & ".\ImageScope_FullBatch_RECURSIVE_ALL_Q99_v4.ps1"
-``
+```
 If the test works, set `$MaxFiles = 0` to process all slides.
 Keep Windows unlocked and do not use the mouse or keyboard while the script is running. Results and errors are saved in `ImageScope_batch_log.csv`. Restarting the script skips completed files.
+
 ---
 Deutsch
 Das Skript exportiert vollständige `.svs`-Slides automatisch aus ImageScope als komprimierte TIFF-Dateien (`TIF:LZW`).
