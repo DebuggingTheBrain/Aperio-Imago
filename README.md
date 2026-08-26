@@ -17,7 +17,7 @@ Install `winapp` in PowerShell:
 ```powershell
 winget install Microsoft.winappcli --source winget
 ```
-Open the script and enter your SVS folder:
+Download and Open the script and enter your SVS folder:
 ```powershell
 $InputFolder = "E:\dataimagescope"
 ```
@@ -46,7 +46,7 @@ Installiere `winapp` in PowerShell:
 ```powershell
 winget install Microsoft.winappcli --source winget
 ```
-Öffne das Skript und trage deinen SVS-Ordner ein:
+Downloade und Öffne das Skript und trage deinen SVS-Ordner ein:
 ```powershell
 $InputFolder = "E:\dataimagescope"
 ```
